@@ -200,7 +200,7 @@ function writePassword() {
     window.alert(password);
 
   } else if (!lowercase && uppercase && !numbers && !special) {
-    var passwordCombo = ("ABCDEFGHIJKLMNOPQRSTUVWXYZ")
+    var passwordCombo = ("ABCDEFGHIJKLMNOPQRSTUVWXYZ");
 
     var password = "";
     password.length = characters;
